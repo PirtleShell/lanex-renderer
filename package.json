@@ -1,0 +1,44 @@
+{
+  "name": "lanex-renderer",
+  "private": true,
+  "version": "0.0.1",
+  "description": "render markdown for laniakean explorer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Robert Pirtle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirtleshell/lanex-renderer.git"
+  },
+  "dependencies": {
+    "camelcase-keys": "^4.0.0",
+    "highlight.js": "^9.9.0",
+    "inline-style-2-json": "^1.0.2",
+    "js-beautify": "^1.6.4",
+    "markdown-it": "^8.2.2",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^2.5.1",
+    "markdown-it-attrs": "^0.8.0",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-emoji": "^1.3.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-ins": "^2.0.0",
+    "markdown-it-math": "^4.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-table-of-contents": "git+https://github.com/pirtleshell/markdown-it-table-of-contents.git",
+    "texzilla": "^0.9.9",
+    "url-regex": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "homepage": "https://github.com/pirtleshell/lanex-renderer#readme",
+  "bugs": {
+    "url": "https://github.com/pirtleshell/lanex-renderer/issues"
+  },
+}
